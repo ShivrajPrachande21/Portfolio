@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import logo from '../assets/raviKumarLogo.webp';
+import logo from '../assets/logo.png';
 const Navbar = () => {
     return (
         <div className="flex items-center justify-between py-6">
             <div className="flex flex-shrink-0 items-center">
                 <a href="/" aria-label="Home">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" className='w-[100px]' />
                 </a>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">

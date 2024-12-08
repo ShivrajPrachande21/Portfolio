@@ -1,11 +1,11 @@
 import React from 'react';
-import profilePic from '../assets/raviKumarProfile.webp';
+import profilePic from '../assets/profileImage.png';
 import { HERO_CONTENT } from './../constants/index';
 const Hero = () => {
     return (
         <div className="pb-4 lg:mb-36">
             <div className="flex justify-around flex-wrap lg:flex-row-reverse">
-                <div className="w-full lg:w-1/3">
+                <div className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:p-8">
                         <img
                             src={profilePic}

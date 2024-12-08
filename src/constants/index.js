@@ -61,16 +61,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "TailWind Css"],
   },
   {
-    title: "Blogging Platform",
+    title: "College Website Landing Page",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed and developed an interactive and visually appealing landing page for a college website using React.js, ensuring a responsive layout across devices .Deployed the project using Netlify for easy accessibility and demo purposes..",
+    technologies: ["HTML", "CSS", "React.js"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "KeshavNagar , Mundhwa, pune-411036,Maharashtra",
+  phoneNo: "+9130408935 ",
+  email: "shivrajprachande21@gmail.com",
 };

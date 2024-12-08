@@ -11,14 +11,14 @@ const Navbar = () => {
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
                 <a
-                    href="https://www.linkedin.com/in/your-linked"
+                    href="https://www.linkedin.com/in/shivraj-prachande-635ab0217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
                 >
                     <FaLinkedin />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/your-linked"
+                    href="https://github.com/ShivrajPrachande21"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
                 >

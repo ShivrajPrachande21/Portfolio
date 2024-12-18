@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { Link, Element } from 'react-scroll';
+
+
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
@@ -23,11 +26,21 @@ function App() {
                 </div>
                 <div className="container mx-auto px-8">
                     <Navbar />
+          
                     <Hero />
                     <Technologies />
+                    <Element name='experience' className='section'>
+                        <Experience/>
+                    </Element>
+                    
+                    <Element name="projects" className="section">
                     <Projects />
-                    <Experience/>
-                    <Contact/>
+        </Element>
+        <Element name="contact" className="section">
+        <Contact/>
+        </Element>
+                 
+                   
                 </div>
             </div>
         </>
